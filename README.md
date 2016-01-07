@@ -1,2 +1,2 @@
 # scub-site-web
-Site web de Scub
+Site web Scub
