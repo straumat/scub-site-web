@@ -14,6 +14,8 @@ body {
     font-family: Merriweather,'Helvetica Neue',Arial,sans-serif;
 }
 
+.hiddenpinimage { opacity: 0; position: absolute; top: 0; left: 0; height: 0px; width: 0px; }
+
 hr {
     max-width: 50px;
     border-color: #f05f40;
