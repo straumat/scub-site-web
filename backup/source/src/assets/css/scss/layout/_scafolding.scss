@@ -1,0 +1,30 @@
+
+//----------------------------------------------------/
+// Body
+//----------------------------------------------------/
+body {
+  overflow-x: hidden;
+}
+
+
+.body-scrolled1 {
+  .navbar-sticky {
+    padding-top: 0;
+    padding-bottom: 0;
+    height: $navbar-height - $navbar-padding * 2;
+
+    &.navbar-transparent {
+      background-color: $navbar-bg-color;
+    }
+  }
+}
+
+
+
+//----------------------------------------------------/
+// Topbar
+//----------------------------------------------------/
+
+.topbar + .main-content {
+  padding-top: $navbar-height;
+}

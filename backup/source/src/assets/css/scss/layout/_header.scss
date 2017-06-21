@@ -1,0 +1,49 @@
+
+.header {
+  position: relative;
+  border-bottom: none;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 200px 0;
+  z-index: 0;
+  overflow: hidden;
+
+  > .container,
+  > .container-fluid,
+  > .container-wide {
+    height: 100%;
+  }
+
+  @include media-down(md) {
+    padding: 160px 0;
+  }
+
+
+  @include media-down(sm) {
+    padding: 120px 0;
+  }
+}
+
+// .header-inverse located inside _section.scss
+
+
+.header-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: .58;
+}
+
+
+
+//----------------------------------------------------/
+// Parallax
+//----------------------------------------------------/
+
+.header[data-parallax] {
+  background-color: transparent;
+}
+
