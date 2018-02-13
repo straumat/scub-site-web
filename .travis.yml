@@ -10,6 +10,6 @@ script:
 deploy:
   skip_cleanup: true
   provider: script
-  script: 'find public -type f -exec curl -u $FTP_USERNAME:$FTP_PASSWORD --ftp-create-dirs -T {} ftp://ftp.scub.net/www/{} ";"'
+  script: 'find ./ -type f -exec curl -u $FTP_USERNAME:$FTP_PASSWORD --ftp-create-dirs -T {} ftp://ftp.scub.net/www/{} ";"'
   on:
     branch: master
