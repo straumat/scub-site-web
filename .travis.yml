@@ -1,12 +1,14 @@
-language: php
-
-php:
-  - '7.1'
-
+language: node_js
+node_js:
+  - node
 branches:
   only:
-  - master
-
-after_success:
-    'find ./ -type f -exec curl -u $FTP_USER:$FTP_PASSWORD --ftp-create-dirs -T {} ftp://ftp.scub.net/www/{} ";"'
-
+    - master
+script:
+  - npm run build
+deploy:
+  skip_cleanup: true
+  provider: script
+  script: node deploy.js
+  on:
+    branch: master
