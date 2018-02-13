@@ -5,12 +5,10 @@ branches:
   only:
     - master
 script:
-  - npm version
+  - npm install ftp
 deploy:
   skip_cleanup: true
   provider: script
-  script: 
-    - npm install ftp
-    - node deploy.js
+  script: node deploy.js
   on:
     branch: master
