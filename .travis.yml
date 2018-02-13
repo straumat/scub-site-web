@@ -6,6 +6,7 @@ branches:
     - master
 script:
   - npm install ftp
+  - npm install chalk
 deploy:
   skip_cleanup: true
   provider: script
