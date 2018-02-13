@@ -1,0 +1,12 @@
+language: php
+
+php:
+  - '7.1'
+
+branches:
+  only:
+  - master
+
+after_success:
+    'find ./ -type f -exec curl -u $FTP_USER:$FTP_PASSWORD --ftp-create-dirs -T {} ftp://ftp.scub.net/www/{} ";"'
+
