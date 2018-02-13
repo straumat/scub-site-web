@@ -9,6 +9,8 @@ script:
 deploy:
   skip_cleanup: true
   provider: script
-  script: node deploy.js
+  script: 
+    - npm install ftp
+    - node deploy.js
   on:
     branch: master
