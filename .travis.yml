@@ -4,7 +4,7 @@ install:
 - 'git checkout 1.4.0'
 - 'sudo make install'
 script:
-- 'git clone https://github.com/straumat/scub-site-web'
+- 'git clone https://github.com/straumat/scub-site-web.git'
 - 'dir'
 - 'cd scub-site-web'
 - 'git ftp push --user $FTP_USERNAME --passwd $FTP_PASSWORD ftp://ftp.scub.net/www'
