@@ -1,15 +1,10 @@
-language: node_js
-node_js:
-  - node
-branches:
-  only:
-    - master
+install:
+- 'git clone https://github.com/git-ftp/git-ftp.git'
+- 'cd git-ftp'
+- 'git checkout 1.4.0'
+- 'sudo make install'
 script:
-  - npm install ftp
-  - npm install chalk
-deploy:
-  skip_cleanup: true
-  provider: script
-  script: 'find ./ -type f -exec curl -u $FTP_USERNAME:$FTP_PASSWORD --ftp-create-dirs -T {} ftp://ftp.scub.net/www/{} ";"'
-  on:
-    branch: master
+- 'git clone https://github.com/straumat/scub-site-web'
+- 'dir'
+- 'cd scub-site-web'
+- 'git ftp push --user $FTP_USERNAME --passwd $FTP_PASSWORD ftp://ftp.scub.net/www'
