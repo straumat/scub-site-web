@@ -1,16 +1,15 @@
-language: node_js
-node_js:
-  - node
+language: java
+install: true
+addons:
+  apt:
+    packages:
+    - lftp
+    - libssl-dev
 branches:
   only:
-    - master
+  - master
 script:
-  - npm install ftp
-  - npm install chalk
-deploy:
-  skip_cleanup: true
-  provider: script
-  script: 'find ./ -type f -exec curl -u $FTP_USERNAME:$FTP_PASSWORD --ftp-create-dirs -T {} ftp://ftp.scub.net/www/{} ";"'
-  on:
-    branch: master
+# Upload website.
+- cd $TRAVIS_BUILD_DIR/public/
+- lftp -e "mirror -R ./ /home/scub/www/ ; quit" -u $FTP_USERNAME,$FTP_PASSWORD sftp://ftp.scub.net
 
