@@ -1,6 +1,6 @@
 <?php
 $lang = substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 2);
-switch ($lang){
+switch ($lang) {
     case "fr":
         //echo "PAGE FR";
         header('location:home/fr/index.html');
@@ -8,7 +8,7 @@ switch ($lang){
     case "en":
         //echo "PAGE EN";
         header('location:home/en/index.html');
-        break;        
+        break;
     default:
         //echo "PAGE EN - Setting Default";
         header('location:home/en/index.html');
