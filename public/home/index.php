@@ -7,11 +7,11 @@ switch ($lang){
         break;
     case "en":
         //echo "PAGE EN";
-        header('location:en/index.html');
+        header('location:fr/index.html');
         break;        
     default:
         //echo "PAGE EN - Setting Default";
-        header('location:en/index.html');
+        header('location:fr/index.html');
         break;
 }
 ?>
