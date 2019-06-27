@@ -11,5 +11,4 @@ branches:
 script:
 # Upload website.
 - cd $TRAVIS_BUILD_DIR/public/
-- lftp -e "mirror -R ./ /home/scub/www/ ; quit" -u $FTP_USERNAME,$FTP_PASSWORD sftp://ftp.scub.net
-
+- lftp -e "mirror -R ./ /home/scub/www/ ; quit" -u $FTP_USERNAME,$FTP_PASSWORD sftp://ssh.cluster002.hosting.ovh.net:22
