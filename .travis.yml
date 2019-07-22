@@ -5,7 +5,7 @@ addons:
     packages:
     - lftp
     - libssl-dev
-  ssh_known_hosts: hosting.ovh.net
+  ssh_known_hosts: ssh.cluster002.hosting.ovh.net
 branches:
   only:
   - master
