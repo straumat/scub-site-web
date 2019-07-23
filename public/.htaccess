@@ -1,8 +1,8 @@
 Errordocument 404 /404.php
 RewriteEngine On
-Redirect 301 https://www.scub.net/home/en/index.html https://www.scub.net/
-Redirect 301 https://www.scub.net/home/fr/index.html https://www.scub.net/
-Redirect 301 https://www.scub.net/home/fr/offres_emploi/offre_emploi_chef_de_projet.pdf https://www.scub.net/recrutement/offre-emploi-chef-de-projet.pdf
-Redirect 301 https://www.scub.net/home/fr/offres_emploi/offre_emploi_directeur_technique.pdf https://www.scub.net/recrutement/offre-emploi-directeur-technique.pdf
-Redirect 301 https://www.scub.net/home/fr/offres_emploi/offre_emploi_developpeur.pdf https://www.scub.net/recrutement/offre-emploi-developpeur.pdf
-Redirect 301 https://www.scub.net/home/fr/ml.html https://www.scub.net/mentions-legales
+Redirect 301 /home/en/index.html https://www.scub.net/
+Redirect 301 /home/fr/index.html https://www.scub.net/
+Redirect 301 /home/fr/offres_emploi/offre_emploi_chef_de_projet.pdf https://www.scub.net/recrutement/offre-emploi-chef-de-projet.pdf
+Redirect 301 /home/fr/offres_emploi/offre_emploi_directeur_technique.pdf https://www.scub.net/recrutement/offre-emploi-directeur-technique.pdf
+Redirect 301 /home/fr/offres_emploi/offre_emploi_developpeur.pdf https://www.scub.net/recrutement/offre-emploi-developpeur.pdf
+Redirect 301 /home/fr/ml.html https://www.scub.net/mentions-legales
