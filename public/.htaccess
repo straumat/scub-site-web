@@ -1,3 +1,9 @@
+redirect 301 https://www.scub.net/home/fr/index.html https://www.scub.net/
+redirect 301 https://www.scub.net/home/fr/offres_emploi/offre_emploi_chef_de_projet.pdf https://www.scub.net/recrutement/offre-emploi-chef-de-projet.pdf
+redirect 301 https://www.scub.net/home/fr/offres_emploi/offre_emploi_directeur_technique.pdf https://www.scub.net/recrutement/offre-emploi-directeur-technique.pdf
+redirect 301 https://www.scub.net/home/fr/offres_emploi/offre_emploi_developpeur.pdf https://www.scub.net/recrutement/offre-emploi-developpeur.pdf
+redirect 301 https://www.scub.net/home/fr/ml.html https://www.scub.net/mentions-legales
+redirect permanent / https://www.scub.net/
 RewriteEngine On
 RewriteCond %{SERVER_PORT} 80
 RewriteRule ^(.*)$ https://www.scub.net/$1 [R=301,L]
