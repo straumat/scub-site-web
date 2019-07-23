@@ -10,6 +10,7 @@
     <link rel="stylesheet" type="text/css" href="/css/jquery-ui.min.css">
     <link rel="stylesheet" href="/css/component.css">
     <link rel="stylesheet" href="/css/style.css"/>
+    <link rel="icon" href="/img/SCUB_LOGO_128PX.ico" />
 </head>
 <body>
 	<header>
