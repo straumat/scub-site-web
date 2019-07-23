@@ -21,7 +21,17 @@
 				<p>La transformation numérique déjà en cours a permis des améliorations mais son avancement demeure inégal selon les lieux et les types d’activités. Cette évolution doit se poursuivre pour perfectionner les processus actuels et permettre de nouveaux usages. Le système de demain ne pourra néanmoins pas se soustraire aux fortes contraintes législatives qui encadrent le domaine de la santé, tel que le secret médical.</p>
 				<p>C’est dans ce contexte que SCUB a imaginé Smart Order, une solution basée sur la technologie <i>blockchain</i> et sur les smart-contracts, qui permet d’assurer un suivi, une historisation et une meilleure sécurisation des échanges entre les différentes parties.</p>
 
-                <p>Voici le lien vers l'article technique complet sur <a class="btn" href="https://scub-france.github.io/smart-order/" target="article">la gestion des ordonnances avec la blockchain Ethereum</a> et vous trouverez <a class="btn"  href="https://github.com/scub-france/smart-order" target="github">ici</a> les sources et les instructions pour tester.</p>
+                <div>
+                    <a class="btn black" href="https://scub-france.github.io/smart-order/" target="article">Notre article complet sur la gestion des ordonnances avec la blockchain Ethereum
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 10"><defs><style>.whitefill{fill:black;}</style></defs><title>link-arrow</title><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><path id="arrow" class="whitefill" d="M19.87,5.32,15.32,9.87a.45.45,0,0,1-.77-.32.49.49,0,0,1,.13-.33l3.77-3.77H.45a.45.45,0,0,1,0-.9h18L14.68.78a.49.49,0,0,1-.13-.33.45.45,0,0,1,.77-.32l4.55,4.55A.46.46,0,0,1,19.87,5.32Z"></path></g></g></svg>
+                    </a>
+                </div>
+
+                <div>
+                    <a class="btn black" href="https://github.com/scub-france/smart-order" target="sources">Sources & instructions.
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 10"><defs><style>.whitefill{fill:black;}</style></defs><title>link-arrow</title><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><path id="arrow" class="whitefill" d="M19.87,5.32,15.32,9.87a.45.45,0,0,1-.77-.32.49.49,0,0,1,.13-.33l3.77-3.77H.45a.45.45,0,0,1,0-.9h18L14.68.78a.49.49,0,0,1-.13-.33.45.45,0,0,1,.77-.32l4.55,4.55A.46.46,0,0,1,19.87,5.32Z"></path></g></g></svg>
+                    </a>
+                </div>
 
                 <h2><i>Blockchain</i> & <i>Smart-contracts</i></h2>
 				<h3><i>Blockchain</i></h3>
