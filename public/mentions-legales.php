@@ -25,7 +25,10 @@
 				16000 Angoulême</p>
 
 				<h2 class="mentions-title">Hébergement :</h2>
-				<p>Nom et adresse (à renseigner par SCUB)</p>
+                <p>OVH<br>
+                2 rue Kellermann<br>
+                59100 Roubaix<br>
+                RCS Roubaix – Tourcoing 424 761 419 00045</p>
 
 				<h2 class="mentions-title">Cookies :</h2>
 				<p>Conformément à la directive 2009/136/CE, l'utilisateur est informé que lors de ses visites sur le site, un cookie peut s'installer automatiquement sur son logiciel de navigation. La durée de validité de ce consentement est de 13 mois maximum. Un cookie est un élément qui ne permet pas d'identifier l'utilisateur mais sert à enregistrer des informations relatives à la navigation de celui-ci sur le site Internet. L'utilisateur a la possibilité de désactiver l'installation de cookies lors de sa première connexion ou depuis les paramètres de son navigateur.</p>
