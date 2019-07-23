@@ -1,3 +1,4 @@
+Errordocument 404 /404.php
 RewriteEngine On
 RewriteCond %{SERVER_PORT} 80
 RewriteRule ^(.*)$ https://www.scub.net/$1 [R=301,L]
