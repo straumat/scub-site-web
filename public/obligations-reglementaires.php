@@ -144,7 +144,7 @@
 						<div class="title">
 							<div class="h3">39 %</div>
 						</div>
-						<p>des assureurs considèrent la détection automatique des fraudes documentaires comme tout à fait nécessaires⁵.</p>
+						<p>des assureurs considèrent la détection automatique des fraudes documentaires comme tout à fait nécessaire⁵.</p>
 					</div>
 					<div class="col-lg-3 number">
 						<div class="title">
