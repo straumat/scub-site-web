@@ -1435,7 +1435,7 @@ section.method-wrapper {
 .method-wrapper .title span {
     font-size: 25px;
     font-weight: 300;
-    line-height:40px;
+    line-height: 30px;
     margin-bottom: 30px;
 }
 
@@ -1582,7 +1582,7 @@ section.text-wrapper {
 .method-wrapper h2 {
     font-size: 60px;
     font-weight: 700;
-    line-height: 40px;
+    line-height: 60px;
     color: #0091DA;
 }
 
@@ -1594,6 +1594,7 @@ section.text-wrapper {
 .method-wrapper h2 span {
     display: inline-block;
     font-size: 30px;
+    line-height: 40px;
     font-weight: 300;
     color: white;
     margin: 30px 0 60px 0;
