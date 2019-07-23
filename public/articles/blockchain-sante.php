@@ -21,7 +21,7 @@
 				<p>La transformation numérique déjà en cours a permis des améliorations mais son avancement demeure inégal selon les lieux et les types d’activités. Cette évolution doit se poursuivre pour perfectionner les processus actuels et permettre de nouveaux usages. Le système de demain ne pourra néanmoins pas se soustraire aux fortes contraintes législatives qui encadrent le domaine de la santé, tel que le secret médical.</p>
 				<p>C’est dans ce contexte que SCUB a imaginé Smart Order, une solution basée sur la technologie <i>blockchain</i> et sur les smart-contracts, qui permet d’assurer un suivi, une historisation et une meilleure sécurisation des échanges entre les différentes parties.</p>
 
-                <p>Voici le lien vers l'article technique complet sur <a href="https://scub-france.github.io/smart-order/" target="article">la gestion des ordonnances avec la blockchain Ethereum</a> et vous trouverez <a href="https://github.com/scub-france/smart-order" target="github">ici</a> les sources et les instructions pour tester.</p>
+                <p>Voici le lien vers l'article technique complet sur <a class="btn" href="https://scub-france.github.io/smart-order/" target="article">la gestion des ordonnances avec la blockchain Ethereum</a> et vous trouverez <a class="btn"  href="https://github.com/scub-france/smart-order" target="github">ici</a> les sources et les instructions pour tester.</p>
 
                 <h2><i>Blockchain</i> & <i>Smart-contracts</i></h2>
 				<h3><i>Blockchain</i></h3>
