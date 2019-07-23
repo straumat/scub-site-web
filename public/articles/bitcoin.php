@@ -10,7 +10,6 @@
 				<span>les utilisateurs Bitcoins<br>
 				grâce à l’intelligence artificielle</span>
 			</h1>
-			<div class="author">par Jonathan Stephans</div>
 		</section>
 		<section class="post-content">
 			<div class="img-wrapper">
@@ -18,7 +17,8 @@
 			</div>
 			<article>
 				<p>Les banques sont soumises à l’obligation de « se conformer aux obligations juridiques résultant des réglementations internationales en matière de lutte contre le blanchiment des capitaux et le financement du terrorisme ainsi que le respect des sanctions et embargos financiers ». De fait, dans le cas d’un banque qui utiliserait à l’avenir des bitcoins, cela suppose qu’elle mette en oeuvre des procédures qui permettent de s’assurer de l’origine des fonds et du bien fondé des opérations et qui détectent les opérations atypiques et alarmantes. Pour aider les établissements bancaires, et plus généralement toutes les entreprises ayant des fonds à gérer, dans cet enjeu d’avenir, SCUB a créé <b>Blockchain Inspector</b>, un outil d’exploration et d’analyse de la blockchain ayant pour objectif de combattre la fraude et le crime sur la blockchain.</p>
-				<h2>Le fonctionnement</h2>
+                <p>Vous pouvez consulter notre article technique en anglais : <a href="https://medium.com/@bci_corporate/profiling-bitcoin-users-with-artificial-intelligence-our-proof-of-concept-33c3ad08884" target="bci">Profiling Bitcoin users with artificial intelligence : Our proof of concept</a></p>
+                <h2>Le fonctionnement</h2>
 				<p>La solution développée par SCUB transcrit les raisonnements humains en processus et donc, transpose l’expérience d’experts en un système automatisé capable de traiter un nombre très important de données en permanence, grâce à différents composants.</p>
 				<p>Cet outil d’Intelligence Artificielle créé par SCUB a la particularité de gérer les déductions et les incertitudes qui sont courantes dans le monde réel. Pour cela, SCUB utilise un système d’influence, couplé à un système de prise de décision.</p>
 				<p>Le système de <b>Blockchain Inspector</b> de SCUB est aussi couplé à un système de représentation sémantique du monde qui sert de support au raisonnement. Le système de raisonnement utilise les hypothèses entrées pour en créer de nouvelles.</p>

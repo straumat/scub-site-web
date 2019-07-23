@@ -10,7 +10,6 @@
 				<span>de notre expertise technologique<br>
 				au coeur de notre ADN</span>
 			</h1>
-			<div class="author">par Jonathan Stephans</div>
 		</section>
 		<section class="post-content">
 			<div class="img-wrapper">

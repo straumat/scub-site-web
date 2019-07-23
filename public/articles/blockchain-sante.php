@@ -10,7 +10,6 @@
 				<span>preuve de concept<br>
 				pour des ordonnances distribuées</span>
 			</h1>
-			<div class="author">par Scub</div>
 		</section>
 		<section class="post-content">
 			<div class="img-wrapper">
@@ -21,7 +20,10 @@
 				<p>Ces actes sont des marqueurs du parcours de soin et présentent en tant que tels des enjeux considérables en termes de traçabilité. La fraude, ainsi que les erreurs de prescription, de délivrance ou de dispensation sont lourdes de conséquences humaines et financières. Une démarche de sécurisation dans le domaine est indispensable.</p>
 				<p>La transformation numérique déjà en cours a permis des améliorations mais son avancement demeure inégal selon les lieux et les types d’activités. Cette évolution doit se poursuivre pour perfectionner les processus actuels et permettre de nouveaux usages. Le système de demain ne pourra néanmoins pas se soustraire aux fortes contraintes législatives qui encadrent le domaine de la santé, tel que le secret médical.</p>
 				<p>C’est dans ce contexte que SCUB a imaginé Smart Order, une solution basée sur la technologie <i>blockchain</i> et sur les smart-contracts, qui permet d’assurer un suivi, une historisation et une meilleure sécurisation des échanges entre les différentes parties.</p>
-				<h2><i>Blockchain</i> & <i>Smart-contracts</i></h2>
+
+                <p>Voici le lien vers l'article technique complet sur <a href="https://scub-france.github.io/smart-order/" target="article">la gestion des ordonnances avec la blockchain Ethereum</a> et vous trouverez <a href="https://github.com/scub-france/smart-order" target="github">ici</a> les sources et les instructions pour tester.</p>
+
+                <h2><i>Blockchain</i> & <i>Smart-contracts</i></h2>
 				<h3><i>Blockchain</i></h3>
 				<p>La <i>blockchain</i> (“chaîne de bloc” en français) est une technologie apparue en 2008. Elle permet le stockage et la transmission d’informations. Il s’agit d’une base de données mondiale, partagée entre utilisateurs et fonctionnant sans organe central de contrôle. Elle contient l’historique complet de tous les échanges entre utilisateurs depuis sa création. Toute personne ayant accès au réseau peut consulter les données en temps réel et interagir avec elle.  Une <i>blockchain</i> peut être publique (ouverte à tous) ou privée. Son accès et son utilisation sont alors restreints à un certain nombre d’acteurs. Dans le cadre d’une <i>blockchain</i> publique, le réseau en charge du maintien opérationnel de la <i>blockchain</i> est mondial et librement accessible.</p>
 				<h3><i>Smart-contracts</i></h3>
