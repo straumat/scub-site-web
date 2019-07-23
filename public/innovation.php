@@ -12,7 +12,7 @@
 							<span>digitale & performance</span>
 						</h1>
 						<div class="text">
-							<p>Depuis sa création, SCUB se positionne comme une société de services innovante et performante. La prise en compte des spécificités des métiers de l’assurance et notre connaissance du secteur nous permettent de concevoir des solutions accessibles, répondant aux problématiques de la digitalisation de l’assurance, de l’optimisation de la relation client, de la différenciation avec la concurrence et de l’automatisation des services.</p>
+							<p>Depuis sa création, SCUB qui dispose des agréments CIR & CII, se positionne comme une société de services innovante et performante. La prise en compte des spécificités des métiers de l’assurance et notre connaissance du secteur nous permettent de concevoir des solutions accessibles, répondant aux problématiques de la digitalisation de l’assurance, de l’optimisation de la relation client, de la différenciation avec la concurrence et de l’automatisation des services.</p>
 						</div>
 					</div>
 				</div>
@@ -78,7 +78,8 @@
 							<span>vos projets R&D.</span>
 						</h2>
 						<p>Notre expertise nous permet d’identifier les technologies émergentes et de vous accompagner dans vos projets R&D en identifiant vos besoins et en les traduisant en solutions digitales.</p>
-						<a class="btn black" href="/articles/blockchain-sante">Découvrir notre dernier projet R&D
+						<a class="btn black" href="/articles/blockchain-sante">Découvrir notre dernier projet R&D.<br>
+                            De plus, nous disposons des agréments CIR & CII.
 							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 10"><defs><style>.whitefill{fill:black;}</style></defs><title>link-arrow</title><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><path id="arrow" class="whitefill" d="M19.87,5.32,15.32,9.87a.45.45,0,0,1-.77-.32.49.49,0,0,1,.13-.33l3.77-3.77H.45a.45.45,0,0,1,0-.9h18L14.68.78a.49.49,0,0,1-.13-.33.45.45,0,0,1,.77-.32l4.55,4.55A.46.46,0,0,1,19.87,5.32Z"></path></g></g></svg>
 						</a>
 					</div>

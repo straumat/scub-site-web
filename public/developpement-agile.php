@@ -12,7 +12,7 @@
 							<span>agile de logiciels<br>sur-mesure</span>
 						</h1>
 						<div class="text">
-							<p>Grâce à sa connaissance des métiers de l’assurance et à son expertise technologique, SCUB conçoit des solutions digitales innovantes et sur-mesure. Nous réalisons des projets clés en main, développés selon les méthodes agiles. En fonction de vos besoins, nous accompagnons vos équipes à travers notre <a href="/centre-services">centre de services</a>. Nous sommes également en capacité de créer des interactions entre vos logiciels existants en automatisant les process depuis votre logiciel métier.</p>
+							<p>Grâce à sa connaissance des métiers de l’assurance et à son expertise technologique, SCUB, qui disponse des Agrément CIR & CII, conçoit des solutions digitales innovantes et sur-mesure. Nous réalisons des projets clés en main, développés selon les méthodes agiles. En fonction de vos besoins, nous accompagnons vos équipes à travers notre <a href="/centre-services">centre de services</a>. Nous sommes également en capacité de créer des interactions entre vos logiciels existants en automatisant les process depuis votre logiciel métier.</p>
 						</div>
 					</div>
 				</div>
@@ -105,7 +105,7 @@
 					<div class="col-lg-6 text">
 						<h2>
 							<span>Autres</span><br>
-							réalisations :
+							réalisations
 						</h2>
 						<div class="method-wrapper white">
 							<div class="text">

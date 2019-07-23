@@ -12,7 +12,7 @@
 							<span>de services informatiques</span>
 						</h1>
 						<div class="text">
-							<p>Certains de vos projets nécessitent la mise à disposition de nos équipes. À travers notre centre de service, nous vous accompagnons en constituant une équipe dédiée à votre projet sur une période définie.</p>
+                            <p>Certains de vos projets nécessitent la mise à disposition de nos équipes. À travers notre centre de service, nous vous accompagnons en constituant une équipe dédiée à votre projet sur une période définie. De plus, nous avons <b>les agréments CIR & CII</b>.</p>
 						</div>
 					</div>
 				</div>
@@ -38,6 +38,10 @@
 							<img src="img/check-dark.svg" alt="check">
 							<p>Suivi régulier par l’équipe managériale de SCUB.</p>
 						</div>
+                        <div class="item">
+                            <img src="img/check-dark.svg" alt="check">
+                            <p>Agrément CIR / CII</p>
+                        </div>
 					</div>
 				</div>
 			</div>
