@@ -1106,7 +1106,6 @@ section.service-wrapper:before {
 .service .subtitle h3 {
     font-size: 17px;
     font-weight: 700;
-    height: 80px;
     line-height: 120%;
 }
 
@@ -1365,7 +1364,6 @@ section.innovation-wrapper {
     font-size: 17px;
     font-weight: 700;
     line-height: 22px;
-    height: 65px;
     margin-bottom: 10px;
 }
 
@@ -1417,11 +1415,11 @@ section.method-wrapper {
     flex-direction: column;
     justify-content: flex-end;
     align-items: flex-start;
-    padding-right: 50px;
+    padding-right: 28px;
 }
 
 .method-wrapper .title h2 {
-    font-size: 60px;
+    font-size: 55px;
     font-weight: 700;
     margin-bottom: 30px;
 }
@@ -2028,6 +2026,7 @@ section.place {
     line-height: 20px;
     color: white;
     padding-left: 20px;
+    margin-left: -15px;
     border-left: 1px solid white;
 }
 
@@ -2329,6 +2328,11 @@ footer .copyright a.a42 {
 }
 
 /* RESPONSIVE */
+
+@media(max-height: 680px) {
+    .homeslider-item .text { top: 90px !important; }
+    .homeslider-nav { bottom: 20px; }
+}
 
 @media(max-width: 800px) {
     header {
