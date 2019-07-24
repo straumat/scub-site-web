@@ -3,7 +3,7 @@
 	$description = 'ESN SSII innovante à Bordeaux, Angoulême et Paris, SCUB répond aux problématiques de la digitalisation de l’assurance et d’optimisation de la relation client.';
     include_once('header.php');
     ?>
-	<main data-menu-parent="Nos solutions">
+	<main data-menu-parent="Nos solutions" data-menu-child="Innovation digitale & performance">
 		<section class="pagetop">
 			<div class="container-fluid">
 				<div class="row">

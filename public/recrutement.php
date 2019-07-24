@@ -3,7 +3,7 @@
 	$description = 'Postulez aux offres d\'emploi de SCUB, SSII-ESN à Bordeaux, Angoulême et Paris : Directeur technique, chef de projet, développeur Java/Javascript, etc.';
     include_once('header.php');
     ?>
-	<main data-menu-parent="Recrutement">
+	<main data-menu-parent="Recrutement" data-menu-child="Respecter vos obligations réglementaires">
 		<section class="slider-wrapper">
 			<div class="slider-item active container-fluid">
 				<div class="row">

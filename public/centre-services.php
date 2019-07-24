@@ -3,7 +3,7 @@
 	$description = 'Solicitez les équipes de SCUB, centre de services numériques et informatiques à Bordeaux, Angoulême et Paris, pour intervenir sur votre projet en interne.';
 	include_once('header.php');
 	?>
-	<main data-menu-parent="Nos solutions">
+	<main data-menu-parent="Nos solutions" data-menu-child="Centre de services informatiques">
 		<section class="pagetop">
 			<div class="container-fluid">
 				<div class="row">
