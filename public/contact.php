@@ -1,10 +1,11 @@
 <?php
+	$menu = 'contact';
     $title = 'Contacter SCUB | SSII ESN à Angoulême - Bordeaux - Paris';
     $description = 'À la recherche d\'une solution logicielle sur-mesure et adaptée à votre projet ? Contactez SCUB, SSII ESN à Bordeaux, SSII ESN à Angoulême et SSII ESN à Paris.';
     include_once('header.php');
 	include_once('contact_request.php');
     ?>
-	<main data-menu-parent="Contact">
+	<main>
 		<section class="contact-wrapper">
 			<div class="container-fluid">
 				<div class="row">

@@ -1,9 +1,11 @@
 <?php
+	$menu = 'nos-solutions';
+	$submenu = 'centre-services';
 	$title = 'Centre de services informatiques à Bordeaux | SCUB';
 	$description = 'Solicitez les équipes de SCUB, centre de services numériques et informatiques à Bordeaux, Angoulême et Paris, pour intervenir sur votre projet en interne.';
 	include_once('header.php');
 	?>
-	<main data-menu-parent="Nos solutions" data-menu-child="Centre de services informatiques">
+	<main>
 		<section class="pagetop">
 			<div class="container-fluid">
 				<div class="row">
