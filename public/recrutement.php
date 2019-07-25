@@ -1,9 +1,10 @@
 <?php
+	$menu = 'recrutement';
 	$title = 'Offres d\'emploi en ESN SSII à Bordeaux, Angoulême et Paris | SCUB';
 	$description = 'Postulez aux offres d\'emploi de SCUB, SSII-ESN à Bordeaux, Angoulême et Paris : Directeur technique, chef de projet, développeur Java/Javascript, etc.';
     include_once('header.php');
     ?>
-	<main data-menu-parent="Recrutement" data-menu-child="Respecter vos obligations réglementaires">
+	<main>
 		<section class="slider-wrapper">
 			<div class="slider-item active container-fluid">
 				<div class="row">

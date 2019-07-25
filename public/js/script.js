@@ -43,6 +43,7 @@ $(document).ready(function() {
 
 	///// MENU /////
 
+/*
 	$('ul.nav__main li a span').each(function () {
 		if ($(this).text() == $('main').attr('data-menu-parent')) {
 			$(this).addClass('menu__link--current');
@@ -55,6 +56,8 @@ $(document).ready(function() {
 			$(this).addClass('menu__sublink--current');
 		}
 	});
+*/
+
 	$('.toggle-menu').click(function() {
 		$('header').toggleClass('active');
 	});

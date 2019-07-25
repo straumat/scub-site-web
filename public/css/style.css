@@ -358,6 +358,9 @@ ul.nav__child {
 	padding-left: 30px;
 	display: none;
 }
+ul.nav__child.nav__child--open {
+	display: block;
+}
 
 /* ==========================================================================
     MULTI LEVEL MENU OVERRIDE
