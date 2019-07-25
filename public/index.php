@@ -17,8 +17,7 @@
     <div class="fb-customerchat"
          attribution=setup_tool
          page_id="217042378368434"
-         logged_in_greeting="Bonjour, comment puis-je vous aider ?"
-         logged_out_greeting="Bonjour, comment puis-je vous aider ?">
+         logged_in_greeting="Bonjour, comment puis-je vous aider ?">
     </div>
 	<main>
 		<section class="homeslider-wrapper">

@@ -12,7 +12,7 @@
 							<span>digitale & performance</span>
 						</h1>
 						<div class="text">
-							<p>Depuis sa création, SCUB qui dispose des agréments CIR & CII, se positionne comme une société de services innovante et performante. La prise en compte des spécificités des métiers de l’assurance et notre connaissance du secteur nous permettent de concevoir des solutions accessibles, répondant aux problématiques de la digitalisation de l’assurance, de l’optimisation de la relation client, de la différenciation avec la concurrence et de l’automatisation des services.</p>
+							<p>Depuis sa création, SCUB, qui dispose des agréments CIR & CII, se positionne comme une société de services innovante et performante. La prise en compte des spécificités des métiers de l’assurance et notre connaissance du secteur nous permettent de concevoir des solutions accessibles, répondant aux problématiques de la digitalisation de l’assurance, de l’optimisation de la relation client, de la différenciation avec la concurrence et de l’automatisation des services.</p>
 						</div>
 					</div>
 				</div>

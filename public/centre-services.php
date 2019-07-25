@@ -40,7 +40,7 @@
 						</div>
                         <div class="item">
                             <img src="img/check-dark.svg" alt="check">
-                            <p>Agrément CIR / CII</p>
+                            <p>Agréments CIR / CII</p>
                         </div>
 					</div>
 				</div>
