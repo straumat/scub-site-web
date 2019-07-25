@@ -3,7 +3,7 @@
 	$description = 'Grâce à sa connaissance des métiers de l’assurance et à son expertise technologique, SCUB conçoit des solutions logiciels CRM innovantes et sur-mesure.';
     include_once('header.php');
     ?>
-	<main data-menu-parent="Nos solutions">
+	<main data-menu-parent="Nos solutions" data-menu-child="Développement agile de logiciels sur-mesure">
 		<section class="pagetop">
 			<div class="container-fluid">
 				<div class="row">

@@ -3,7 +3,7 @@
 	$description = 'ESN SSII innovante et performante, SCUB répond aux problématiques de la digitalisation de l’assurance, d’optimisation de la relation client et d\'automatisation.';
     include_once('header.php');
     ?>
-	<main data-menu-parent="Nos missions">
+	<main data-menu-parent="Nos missions" data-menu-child="Améliorer la relation client assureur-assurés">
 		<section class="slider-wrapper white">
 			<div class="slider-item active container-fluid">
 				<div class="row">

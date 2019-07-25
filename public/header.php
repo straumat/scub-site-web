@@ -18,26 +18,28 @@
 			<a href="/"><img src="/img/logo-scub.svg"></a>
 		</div>
 		<nav id="ml-menu" class="menu">
-		<!-- Close button for mobile version -->
+			<!-- Close button for mobile version -->
 			<button class="action action--close" aria-label="Close Menu"><span class="icon icon--cross"></span></button>
-			<div class="menu__wrap">
-				<ul data-menu="main" class="menu__level">
-					<li class="menu__item"><a class="menu__link" data-submenu="submenu-1" href="#!">Nos missions</a></li>
-					<li class="menu__item"><a class="menu__link" data-submenu="submenu-2" href="#!">Nos solutions</a></li>
-					<li class="menu__item"><a class="menu__link" href="/recrutement">Recrutement</a></li>
-					<li class="menu__item"><a class="menu__link" href="/contact">Contact</a></li>
-				</ul>
-				<!-- Submenu 1 -->
-				<ul data-menu="submenu-1" class="menu__level">
-					<li class="menu__item"><a class="menu__link" href="/relation-client">Améliorer la relation client assureur-assurés</a></li>
-					<li class="menu__item"><a class="menu__link" href="/operations-internes">Optimiser vos opérations internes</a></li>
-					<li class="menu__item"><a class="menu__link" href="/obligations-reglementaires">Respecter vos obligations réglementaires</a></li>
-				</ul>
-				<!-- Submenu 2 -->
-				<ul data-menu="submenu-2" class="menu__level">
-					<li class="menu__item"><a class="menu__link" href="/developpement-agile">Développement agile de logiciels sur-mesure</a></li>
-					<li class="menu__item"><a class="menu__link" href="/centre-services">Centre de services informatiques</a></li>
-					<li class="menu__item"><a class="menu__link" href="/innovation">Innovation digitale & performance</a></li>
+			<div class="">
+				<ul class="nav__main">
+					<li class="menu__item" id="nos-missions">
+						<a class="menu__link" href="/relation-client"><span>Nos missions</span></a>
+						<ul class="nav__child">
+							<li class="menu__item"><a class="menu__link" href="/relation-client">Améliorer la relation client assureur-assurés</a></li>
+							<li class="menu__item"><a class="menu__link" href="/operations-internes">Optimiser vos opérations internes</a></li>
+							<li class="menu__item"><a class="menu__link" href="/obligations-reglementaires">Respecter vos obligations réglementaires</a></li>
+						</ul>
+					</li>
+					<li class="menu__item" id="nos-solutions">
+						<a class="menu__link" href="/developpement-agile"><span>Nos solutions</span></a>
+						<ul class="nav__child">
+							<li class="menu__item"><a class="menu__link" href="/developpement-agile">Développement agile de logiciels sur-mesure</a></li>
+							<li class="menu__item"><a class="menu__link" href="/centre-services">Centre de services informatiques</a></li>
+							<li class="menu__item"><a class="menu__link" href="/innovation">Innovation digitale & performance</a></li>
+						</ul>
+					</li>
+					<li class="menu__item"><a class="menu__link" href="/recrutement"><span>Recrutement</span></a></li>
+					<li class="menu__item"><a class="menu__link" href="/contact"><span>Contact</span></a></li>
 				</ul>
 			</div>
 		</nav>
