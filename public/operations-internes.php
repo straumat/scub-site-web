@@ -1,9 +1,11 @@
 <?php
+	$menu = 'nos-missions';
+	$submenu = 'operations-internes';
 	$title = 'Optimiser les opérations internes des assureurs | SCUB';
 	$description = 'SCUB digitalise vos opérations internes pour gagner en agilité, en efficacité et en qualité de services : automatisation des tâches, digital analytics… ';
     include_once('header.php');
     ?>
-	<main data-menu-parent="Nos missions">
+	<main>
 		<section class="slider-wrapper white">
 			<div class="slider-item active container-fluid">
 				<div class="row">

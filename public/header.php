@@ -19,26 +19,28 @@
 			<a href="/"><img src="/img/logo-scub.svg"></a>
 		</div>
 		<nav id="ml-menu" class="menu">
-		<!-- Close button for mobile version -->
+			<!-- Close button for mobile version -->
 			<button class="action action--close" aria-label="Close Menu"><span class="icon icon--cross"></span></button>
-			<div class="menu__wrap">
-				<ul data-menu="main" class="menu__level">
-					<li class="menu__item"><a class="menu__link" data-submenu="submenu-1" href="#!">Nos missions</a></li>
-					<li class="menu__item"><a class="menu__link" data-submenu="submenu-2" href="#!">Nos solutions</a></li>
-					<li class="menu__item"><a class="menu__link" href="/recrutement">Recrutement</a></li>
-					<li class="menu__item"><a class="menu__link" href="/contact">Contact</a></li>
-				</ul>
-				<!-- Submenu 1 -->
-				<ul data-menu="submenu-1" class="menu__level">
-					<li class="menu__item"><a class="menu__link" href="/relation-client">Améliorer la relation client assureur-assurés</a></li>
-					<li class="menu__item"><a class="menu__link" href="/operations-internes">Optimiser vos opérations internes</a></li>
-					<li class="menu__item"><a class="menu__link" href="/obligations-reglementaires">Respecter vos obligations réglementaires</a></li>
-				</ul>
-				<!-- Submenu 2 -->
-				<ul data-menu="submenu-2" class="menu__level">
-					<li class="menu__item"><a class="menu__link" href="/developpement-agile">Développement agile de logiciels sur-mesure</a></li>
-					<li class="menu__item"><a class="menu__link" href="/centre-services">Centre de services informatiques</a></li>
-					<li class="menu__item"><a class="menu__link" href="/innovation">Innovation digitale & performance</a></li>
+			<div class="">
+				<ul class="nav__main">
+					<li class="menu__item" id="nos-missions">
+						<a class="menu__link" href="/relation-client"><span class="<?php if (!empty($menu) && $menu == 'nos-missions') { echo 'menu__link--current'; } ?>">Nos missions</span></a>
+						<ul class="nav__child <?php if (!empty($menu) && $menu == 'nos-missions') { echo 'nav__child--open'; } ?>">
+							<li class="menu__item" id="relation-client"><a class="menu__link <?php if (!empty($submenu) && $submenu == 'relation-client') { echo 'menu__sublink--current'; } ?>" href="/relation-client">Améliorer la relation client assureur-assurés</a></li>
+							<li class="menu__item" id="operations-internes"><a class="menu__link <?php if (!empty($submenu) && $submenu == 'operations-internes') { echo 'menu__sublink--current'; } ?>" href="/operations-internes">Optimiser vos opérations internes</a></li>
+							<li class="menu__item" id="obligations-reglementaires"><a class="menu__link <?php if (!empty($submenu) && $submenu == 'obligations-reglementaires') { echo 'menu__sublink--current'; } ?>" href="/obligations-reglementaires">Respecter vos obligations réglementaires</a></li>
+						</ul>
+					</li>
+					<li class="menu__item" id="nos-solutions">
+						<a class="menu__link" href="/developpement-agile"><span class="<?php if (!empty($menu) && $menu == 'nos-solutions') { echo 'menu__link--current'; } ?>">Nos solutions</span></a>
+						<ul class="nav__child <?php if (!empty($menu) && $menu == 'nos-solutions') { echo 'nav__child--open'; } ?>">
+							<li class="menu__item" id="developpement-agile"><a class="menu__link <?php if (!empty($submenu) && $submenu == 'developpement-agile') { echo 'menu__sublink--current'; } ?>" href="/developpement-agile">Développement agile de logiciels sur-mesure</a></li>
+							<li class="menu__item" id="centre-services"><a class="menu__link <?php if (!empty($submenu) && $submenu == 'centre-services') { echo 'menu__sublink--current'; } ?>" href="/centre-services">Centre de services informatiques</a></li>
+							<li class="menu__item" id="innovation"><a class="menu__link <?php if (!empty($submenu) && $submenu == 'innovation') { echo 'menu__sublink--current'; } ?>" href="/innovation">Innovation digitale & performance</a></li>
+						</ul>
+					</li>
+					<li class="menu__item" id="recrutement"><a class="menu__link" href="/recrutement"><span class="<?php if (!empty($menu) && $menu == 'recrutement') { echo 'menu__link--current'; } ?>">Recrutement</span></a></li>
+					<li class="menu__item" id="contact"><a class="menu__link" href="/contact"><span class="<?php if (!empty($menu) && $menu == 'contact') { echo 'menu__link--current'; } ?>">Contact</span></a></li>
 				</ul>
 			</div>
 		</nav>

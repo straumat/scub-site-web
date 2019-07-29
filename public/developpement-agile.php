@@ -1,9 +1,11 @@
 <?php
+	$menu = 'nos-solutions';
+	$submenu = 'developpement-agile';
 	$title = 'Développement de logiciels CRM agiles et sur-mesure | SCUB';
 	$description = 'Grâce à sa connaissance des métiers de l’assurance et à son expertise technologique, SCUB conçoit des solutions logiciels CRM innovantes et sur-mesure.';
     include_once('header.php');
     ?>
-	<main data-menu-parent="Nos solutions">
+	<main>
 		<section class="pagetop">
 			<div class="container-fluid">
 				<div class="row">

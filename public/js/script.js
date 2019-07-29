@@ -1,5 +1,6 @@
 $(document).ready(function() {
 
+/*
 	var menuEl = document.getElementById('ml-menu'),
 		mlmenu = new MLMenu(menuEl, {
 			// breadcrumbsCtrl : true, // show breadcrumbs
@@ -23,6 +24,7 @@ $(document).ready(function() {
 	function closeMenu() {
 		classie.remove(menuEl, 'menu--open');
 	}
+*/
 
 	// simulate grid content loading
 	var gridWrapper = document.querySelector('.content');
@@ -41,11 +43,20 @@ $(document).ready(function() {
 
 	///// MENU /////
 
-	$('ul[data-menu="main"] li a').each(function() {
-		if($(this).text() == $('main').attr('data-menu-parent')) {
+/*
+	$('ul.nav__main li a span').each(function () {
+		if ($(this).text() == $('main').attr('data-menu-parent')) {
 			$(this).addClass('menu__link--current');
+			$(this).parent().parent().children('ul.nav__child').show();
 		}
 	});
+
+	$('ul.nav__child li a').each(function () {
+		if ($(this).text().replace(/\s\s+/g, ' ') == $('main').attr('data-menu-child')) {
+			$(this).addClass('menu__sublink--current');
+		}
+	});
+*/
 
 	$('.toggle-menu').click(function() {
 		$('header').toggleClass('active');

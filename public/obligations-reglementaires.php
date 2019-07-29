@@ -1,9 +1,11 @@
 <?php
+	$menu = 'nos-missions';
+	$submenu = 'obligations-reglementaires';
 	$title = 'Respecter les obligations réglementaires des assureurs | SCUB';
 	$description = 'Spécialiste de la digitalisation de la relation client, SCUB facilite aussi le respect des obligations réglementaires des assureurs, courtiers et mandataires.';
     include_once('header.php');
     ?>
-	<main data-menu-parent="Nos missions">
+	<main>
 		<section class="slider-wrapper white">
 			<div class="slider-item active container-fluid">
 				<div class="row">
