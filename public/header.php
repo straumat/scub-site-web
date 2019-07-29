@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="/css/component.css">
     <link rel="stylesheet" href="/css/style.css"/>
     <link rel="icon" href="/img/SCUB_LOGO_128PX.ico" />
+    <meta property="og:image" content="https://www.scub.net/img/SCUB-VISU-FB-1200X628.png" />
 </head>
 <body>
 	<header>
