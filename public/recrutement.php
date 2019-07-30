@@ -237,7 +237,7 @@
 								<h3>Passion</h3>
 							</div>
 							<hr>
-							<p>Nous sommes des passionnés de technilogies avec une forte volonté de partager les connaissnaces et les compétences à l'intérieur comme à l'extérieur de l'entreprise</p>
+							<p>Nous sommes des passionnés de technologies avec une forte volonté de partager les connaissnaces et les compétences à l'intérieur comme à l'extérieur de l'entreprise</p>
 						</div>
 					</div>
 				</div>
