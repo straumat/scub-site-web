@@ -203,6 +203,23 @@
 									</a>
 								</div>
 							</div>
+							<div class="head">
+								<h3>Administrateur réseau</h3>
+								<span>Angouleme / Bordeaux</span>
+							</div>
+							<div>
+								<p>
+									Nous recherchons notre administrateur système Linux /Windows/Cloud (H/F).
+								</p>
+								<div class="link">
+									<a class="btn black" href="/pdf/offre-emploi-administrateur-reseau.pdf" target="_blank">Télécharger le détail de l'offre
+										<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 10"><defs><style>.offerArrow{fill:black;}</style></defs><title>link-arrow</title><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><path id="arrow" class="offerArrow" d="M19.87,5.32,15.32,9.87a.45.45,0,0,1-.77-.32.49.49,0,0,1,.13-.33l3.77-3.77H.45a.45.45,0,0,1,0-.9h18L14.68.78a.49.49,0,0,1-.13-.33.45.45,0,0,1,.77-.32l4.55,4.55A.46.46,0,0,1,19.87,5.32Z"></path></g></g></svg>
+									</a>
+									<a class="btn black" href="mailto:recrutement@scub.net" target="_blank">Postuler !
+										<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 10"><defs><style>.offerArrow{fill:black;}</style></defs><title>link-arrow</title><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><path id="arrow" class="offerArrow" d="M19.87,5.32,15.32,9.87a.45.45,0,0,1-.77-.32.49.49,0,0,1,.13-.33l3.77-3.77H.45a.45.45,0,0,1,0-.9h18L14.68.78a.49.49,0,0,1-.13-.33.45.45,0,0,1,.77-.32l4.55,4.55A.46.46,0,0,1,19.87,5.32Z"></path></g></g></svg>
+									</a>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
