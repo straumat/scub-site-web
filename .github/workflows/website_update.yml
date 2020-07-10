@@ -19,7 +19,7 @@ jobs:
     - name: FTP-Deploy-Action
       uses: SamKirkland/FTP-Deploy-Action@3.1.0
       with:
-        ftp-server: ftp.cluster002.ovh.net
+        ftp-server: ftp.cluster002.hosting.ovh.net
         ftp-username: ${{ secrets.FTP_USERNAME }}
         ftp-password: ${{ secrets.FTP_PASSWORD }}
         git-ftp-args: --remote-root www
