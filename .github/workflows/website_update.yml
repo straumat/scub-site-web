@@ -22,4 +22,4 @@ jobs:
         ftp-server: ftp.cluster002.hosting.ovh.net
         ftp-username: ${{ secrets.FTP_USERNAME }}
         ftp-password: ${{ secrets.FTP_PASSWORD }}
-        git-ftp-args: --local-dir ./public --remote-root www
+        git-ftp-args: --local-dir public --remote-root www
