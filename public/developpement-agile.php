@@ -14,7 +14,7 @@
 							<span>agile de logiciels<br>sur-mesure</span>
 						</h1>
 						<div class="text">
-							<p>Grâce à sa connaissance des métiers de l’assurance et à son expertise technologique, SCUB (qui dispose des Agréments CIR & CII), conçoit des solutions digitales innovantes et sur-mesure. Nous réalisons des projets clés en main, développés selon les méthodes agiles. En fonction de vos besoins, nous accompagnons vos équipes à travers notre <a href="/centre-services">centre de services</a>. Nous sommes également en capacité de créer des interactions entre vos logiciels existants en automatisant les process depuis votre logiciel métier.</p>
+							<p>Grâce à sa connaissance des métiers de l’assurance et à son expertise technologique, SCUB, conçoit des solutions digitales innovantes et sur-mesure. Nous réalisons des projets clés en main, développés selon les méthodes agiles. En fonction de vos besoins, nous accompagnons vos équipes à travers notre <a href="/centre-services">centre de services</a>. Nous sommes également en capacité de créer des interactions entre vos logiciels existants en automatisant les process depuis votre logiciel métier.</p>
 						</div>
 					</div>
 				</div>
@@ -47,15 +47,15 @@
 					<div class="col-lg-6 text">
 						<div class="item">
 							<img src="img/check-dark.svg" alt="check">
-							<p>Architecture</p>
+							<p>Architecture (SOA, Microservices...)</p>
 						</div>
 						<div class="item">
 							<img src="img/check-dark.svg" alt="check">
-							<p>Développement</p>
+							<p>Développement (Java, Spring boot, Angular, Flutter...)</p>
 						</div>
 						<div class="item">
 							<img src="img/check-dark.svg" alt="check">
-							<p>Maintenance</p>
+							<p>Maintenance (Administration réseau, AWS...)</p>
 						</div>
 						<a class="btn blue" href="/contact">Nous faire part de votre projet
 							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 10"><defs><style>.arrowblack{fill:#0091DA;}</style></defs><title>link-arrow</title><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><path id="arrow" class="arrowblack" d="M19.87,5.32,15.32,9.87a.45.45,0,0,1-.77-.32.49.49,0,0,1,.13-.33l3.77-3.77H.45a.45.45,0,0,1,0-.9h18L14.68.78a.49.49,0,0,1-.13-.33.45.45,0,0,1,.77-.32l4.55,4.55A.46.46,0,0,1,19.87,5.32Z"></path></g></g></svg>

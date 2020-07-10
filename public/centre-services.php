@@ -14,7 +14,7 @@
 							<span>de services informatiques</span>
 						</h1>
 						<div class="text">
-                            <p>Certains de vos projets nécessitent la mise à disposition de nos équipes. À travers notre centre de service, nous vous accompagnons en constituant une équipe dédiée à votre projet sur une période définie.<br>De plus, nous disposons <b>des agréments CIR & CII</b>.</p>
+                            <p>Certains de vos projets nécessitent la mise à disposition de nos équipes. À travers notre centre de service, nous vous accompagnons en constituant une équipe dédiée à votre projet sur une période définie.<br>Nous maitrisons entres autres les technolgies <b>Java (Spring boot...), Javascript (Angular...) & Flutter</b>.</p>
 						</div>
 					</div>
 				</div>
@@ -30,7 +30,7 @@
 					<div class="col-lg-6 text">
 						<div class="item">
 							<img src="img/check-dark.svg" alt="check">
-							<p>Intervention d’une équipe dédiée entièrement à votre projet</p>
+							<p>Intervention d’une équipe dédiée entièrement à votre projet (Java, Javascript, Flutter...)</p>
 						</div>
 						<div class="item">
 							<img src="img/check-dark.svg" alt="check">
