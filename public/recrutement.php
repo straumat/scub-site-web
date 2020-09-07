@@ -151,8 +151,9 @@
 					</div>
 					<div class="col-lg-9">
 						<div id="accordion">
+
                             <!-- =================================================================================== -->
-                            <div class="head">
+                            <div class="head" id="recrutement-ingenieur-affaires-it">
                                 <h3>Ingénieur d’affaires IT</h3>
                                 <span>Angouleme / Bordeaux</span>
                             </div>
