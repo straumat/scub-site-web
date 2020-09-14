@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+{# ================================================================================================================== #}
+{# Head #}
+<head>
+    {{ include('generic/page.head.html.twig') }}
+</head>
+{# ================================================================================================================== #}
+
+{# ================================================================================================================== #}
+{# Body #}
+<body>
+<!--[if lte IE 9]>
+<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade
+    your browser</a> to improve your experience and security.</p>
+<![endif]-->
+
+{# ================================================================================================================== #}
+{# Page loader #}
+{{ include('generic/page.loader.html.twig') }}
+
+<p>
+    {# ============================================================================================================== #}
+    {# Page footer #}
+    {{ include('generic/page.header.html.twig') }}
+
+    {% block content %}{% endblock %}
+
+    {# ============================================================================================================== #}
+    {# Page footer #}
+    {{ include('generic/page.footer.html.twig') }}
+</p>
+
+{# ================================================================================================================== #}
+{# Scroll top #}
+<a href="#" class="scroll-top">
+    <i class="lni lni-arrow-up"></i>
+</a>
+
+{# ================================================================================================================== #}
+{# Javascript #}
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.bundle.min.js"
+        integrity="sha384-DBjhmceckmzwrnMMrjI7BvG2FmRuxQVaTfFYHgfnrdfqMhxKt445b7j3KBQLolRl"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"
+        integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g=="
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js"
+        integrity="sha512-S5PZ9GxJZO16tT9r3WJp/Safn31eu8uWrzglMahDT4dsmgqWonRY9grk3j+3tfuPr9WJNsfooOR7Gi7HL5W2jw=="
+        crossorigin="anonymous"></script>
+<script src="assets/js/main.js"></script>
+
+</body>
+{# ================================================================================================================== #}
+
+</html>
