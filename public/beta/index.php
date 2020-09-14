@@ -9,5 +9,5 @@ $loader = new FilesystemLoader(__DIR__ . '/templates');
 $twig = new Environment($loader);
 
 // =====================================================================================================================
-// Run template Twig.
-echo $twig->render('first.html.twig');
+// Run Twig.
+echo $twig->render('first.html.twig', ['name' => 'John Doe', 'occupation' => 'gardener']);
