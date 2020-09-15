@@ -12,10 +12,10 @@ $twig = new Environment($loader);
 
 // =====================================================================================================================
 // Run Twig.
-echo $twig->render('offre.html.twig',
+echo $twig->render('nos-produits.html.twig',
     [
         'headTitle' => 'Scub',
         'headDescription' => 'gardener',
-        'bannerTitle' => 'Notre offre de service',
-        'bannerPage' => 'Offre',
+        'bannerTitle' => 'Nos produits',
+        'bannerPage' => 'Produits',
     ]);
