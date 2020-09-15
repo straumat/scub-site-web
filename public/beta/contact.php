@@ -14,7 +14,7 @@ $twig = new Environment($loader);
 // Run Twig.
 echo $twig->render('contact.html.twig',
     [
-        'headTitle' => 'John Doe',
+        'headTitle' => 'Scub',
         'headDescription' => 'gardener',
         'bannerTitle' => 'Contactez nous',
         'bannerPage' => 'Contact',

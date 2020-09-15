@@ -2,3 +2,5 @@
   * title et description
   * Envoi de mails.
   * Google analytics.
+  * Page 404.
+  * Redirection des anciennes pages.

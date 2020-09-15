@@ -14,7 +14,7 @@ $twig = new Environment($loader);
 // Run Twig.
 echo $twig->render('recrutement.html.twig',
     [
-        'headTitle' => 'John Doe',
+        'headTitle' => 'Scub',
         'headDescription' => 'gardener',
         'bannerTitle' => 'Nous recrutons',
         'bannerPage' => 'Recrutement',
