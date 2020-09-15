@@ -1,0 +1,117 @@
+{% extends "generic/page.html.twig" %}
+{% block content %}
+    {# ============================================================================================================== #}
+    {# Content #}
+
+    {{ include('generic/page.banner.html.twig') }}
+
+    <section class="contact-section pt-50">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-4">
+                    <div class="contact-item-wrapper">
+                        <div class="row">
+                            <div class="col-12 col-md-6 col-xl-12">
+                                <div class="contact-item">
+                                    <div class="contact-icon">
+                                        <i class="lni lni-phone"></i>
+                                    </div>
+                                    <div class="contact-content">
+                                        <h4>Contact</h4>
+                                        <p><a href="tel:0545373373" style="display: block;">05 45 37 33 73</a></p>
+                                        <p><a href="mailto:contact@scub.net">contact@scub.net</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-xl-12">
+                                <div class="contact-item">
+                                    <div class="contact-icon">
+                                        <i class="lni lni-map-marker"></i>
+                                    </div>
+                                    <div class="contact-content">
+                                        <h4>Scub Angoulême</h4>
+                                        <p>102 rue de Bordeaux</p>
+                                        <p>16000 Angoulême</p>
+                                        <p><a href="https://g.page/scub-angouleme?we" target="google-maps-scub-angouleme">Voir dans Google maps</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-xl-12">
+                                <div class="contact-item">
+                                    <div class="contact-icon">
+                                        <i class="lni lni-map-marker"></i>
+                                    </div>
+                                    <div class="contact-content">
+                                        <h4>Scub Bordeaux</h4>
+                                        <p>11-13 rue de Gironde</p>
+                                        <p>33000 Bordeaux</p>
+                                        <p><a href="https://g.page/scub-bordeaux?we" target="google-maps-scub-bordeaux">Voir dans Google maps</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-xl-12">
+                                <div class="contact-item">
+                                    <div class="contact-icon">
+                                        <i class="lni lni-map-marker"></i>
+                                    </div>
+                                    <div class="contact-content">
+                                        <h4>Scub Paris</h4>
+                                        <p>57 Espl. du Général de Gaulle</p>
+                                        <p>92081 Paris La Défense</p>
+                                        <p><a href="https://g.page/scub-paris?we" target="google-maps-scub-bordeaux">Voir dans Google maps</a></p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-8">
+                    <div class="contact-form-wrapper">
+                        <div class="row">
+                            <div class="col-xl-10 col-lg-8 mx-auto">
+                                <div class="section-title text-center mb-50">
+                                    <span class="wow fadeInDown" data-wow-delay=".2s">Contactez nous !</span>
+                                    <p class="wow fadeInUp" data-wow-delay=".6s">Trouvons la solution adaptée à votre projet.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <form action="assets/php/mail.php" class="contact-form">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <input type="text" name="name" id="name" placeholder="Nom" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <input type="email" name="email" id="email" placeholder="Email" required>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <input type="text" name="phone" id="phone" placeholder="Téléphone" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <input type="text" name="subject" id="email" placeholder="Sujet" required>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12">
+                                    <textarea name="message" id="message" placeholder="Message"
+                                              rows="5"></textarea>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="button text-center">
+                                        <button type="submit" class="theme-btn">Envoyer !</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    {# ============================================================================================================== #}
+{% endblock %}
