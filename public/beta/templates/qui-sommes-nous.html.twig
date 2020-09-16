@@ -3,60 +3,39 @@
     {# ============================================================================================================== #}
     {# Content #}
 
-    {{ include('generic/page.banner.html.twig') }}
+    <br><br><br>
 
-    <section class="feature-section pt-130">
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-6 col-lg-7 col-md-9 mx-auto">
-                    <div class="section-title text-center mb-55">
-                        <h2 class="wow fadeInUp" data-wow-delay=".4s">Scub</h2>
-                        <p class="wow fadeInUp" data-wow-delay=".6s">Depuis 2003, notre métier consiste à créer avec
-                            vous des solutions digitales innovantes, en vous accompagnant à chaque étape de leurs
-                            réalisations.<br><br>Nous avons la chance d’être à la fois une société de service & un
-                            éditeur de logiciel ce qui nous permet d’avoir une expérience forte dans la maintenance sur
-                            le long terme des applications et la qualité. Ceci nous permet aussi d’avoir à disposition
-                            des compétences réseaux, tests, déploiements.</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-lg-4 col-md-6">
-                    <div class="feature-box box-style">
-                        <div class="box-content-style feature-content">
-                            <h4>2003</h4>
-                            <p>Date de création de la société</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="feature-box box-style">
-                        <div class="box-content-style feature-content">
-                            <h4>3 entités</h4>
-                            <p>Angoulême<br>
-                                Bordeaux<br>
-                                Paris
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="feature-box box-style">
-                        <div class="box-content-style feature-content">
-                            <h4>50 collaborateurs</h4>
-                                <p>Directeurs techniques<br>
-                                    Chefs de projets<br>
-                                    Développeurs<br>
-                                    Testeurs<br>
-                                    Administrateurs cloud
-                                </p>
+    <section class="carousel-section-wrapper">
+        <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-section carousel-item active clip-bg pt-225 pb-200 img-bg"
+                     style="background-image: url('assets/img/carousel/carousel.jpg');">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xl-8 col-lg-10 mx-auto">
+                                <div class="carousel-content text-center">
+                                    <div class="section-title">
+                                        <h2 class="text-white">Scub</h2>
+                                        <p class="text-white">Depuis 2003, notre métier consiste à créer avec
+                                            vous des solutions digitales innovantes, en vous accompagnant à chaque étape
+                                            de leurs réalisations. Nous sommes aujourd'hui une équipe de 50 personnes
+                                            entre Angoulême, Bordeaux & Paris</p>
+                                        <p class="text-white">
+                                            Nous avons la chance d’être à la fois une société de service & un
+                                            éditeur de logiciel ce qui nous permet d’avoir une expérience forte dans la
+                                            maintenance sur le long terme des applications et la qualité. Ceci nous
+                                            permet aussi d’avoir
+                                            à disposition des compétences tests, devops & cloud.
+                                        </p>
+                                    </div>
+                                    <a href="mailto:contact@scub.net" class="theme-btn border-btn">Contactez nous</a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-
     {# ============================================================================================================== #}
 {% endblock %}
