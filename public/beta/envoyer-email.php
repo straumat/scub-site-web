@@ -10,8 +10,6 @@
         $subject = filter_var(trim($_POST["subject"]), FILTER_SANITIZE_EMAIL);
         $message = trim($_POST["message"]);
 
-        error_log("!!!!");
-
         // Set the recipient email address.
         $recipient = "contact@scub.net";
 
@@ -27,8 +25,6 @@
 
         // Build the email headers.
         $email_headers = "From: $name <$email>";
-
-        error_log($email_content);
 
         // Send the email.
         if (mail($recipient, $email_content, $email_headers)) {

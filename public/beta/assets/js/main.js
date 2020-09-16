@@ -5,7 +5,6 @@ $('#contact_form').submit(function () {
     var subject = $("#subject").val();
     var message = $("#message").val();
     var dataString = 'name=' + name + '&email=' + email + '&phone=' + phone + '&subject=' + subject + '&message=' + message;
-    alert(dataString);
     $.ajax({
         type: "POST",
         url: "envoyer-email.php",
@@ -18,7 +17,6 @@ $('#contact_form').submit(function () {
     });
     return false;
 });
-
 
 (function () {
 
