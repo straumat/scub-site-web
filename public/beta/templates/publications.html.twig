@@ -1,0 +1,71 @@
+{% extends "generic/page.html.twig" %}
+{% block content %}
+    {# ============================================================================================================== #}
+    {# Content #}
+
+    {{ include('generic/page.banner.html.twig') }}
+
+    <section class="blog-section pt-130">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-8 col-lg-7">
+                    <div class="left-side-wrapper mb-60">
+                        <div class="single-blog blog-style-2 mb-60 wow fadeInUp" data-wow-delay=".2s">
+                            <div class="blog-img blog-img-2">
+                                <img src="assets/img/publications/smart-order-ordonnance-sur-ethereum.jpg" alt="Smart order ordonnance">
+                            </div>
+                            <div class="blog-content">
+                                <h4>Blockchain et santé : preuve de concept pour des ordonnances distribuées</h4>
+                                <p class="mb-40">La prescription comme la délivrance de médicaments sont des actes
+                                    incontournables de l’activité médicale mais ils sont pourtant complexes à
+                                    appréhender. De nombreux acteurs sont impliqués dans le processus et ils peuvent
+                                    avoir des avis ou des intérêts divergents.</p>
+
+                                <p class="mb-40">Ces actes sont des marqueurs du parcours de soin et présentent en
+                                    tant que tels des enjeux considérables en termes de traçabilité. La fraude, ainsi
+                                    que les erreurs de prescription, de délivrance ou de dispensation sont lourdes de
+                                    conséquences humaines et financières. Une démarche de sécurisation dans le domaine
+                                    est indispensable.</p>
+
+                                <p class="mb-40">La transformation numérique déjà en cours a permis des améliorations mais son
+                                    avancement demeure inégal selon les lieux et les types d’activités. Cette évolution
+                                    doit se poursuivre pour perfectionner les processus actuels et permettre de nouveaux
+                                    usages. Le système de demain ne pourra néanmoins pas se soustraire aux fortes
+                                    contraintes législatives qui encadrent le domaine de la santé, tel que le secret
+                                    médical.</p>
+
+                                <p class="mb-40">C’est dans ce contexte que SCUB a imaginé Smart Order, une solution basée sur la
+                                    technologie blockchain et sur les smart-contracts, qui permet d’assurer un suivi,
+                                    une historisation et une meilleure sécurisation des échanges entre les différentes
+                                    parties.</p>
+                                <br>
+                                <a href="https://scub-france.github.io/smart-order/" target="smart-order-article">Notre article : Gestion des ordonnances avec la blockchain Ethereum</a>
+                                <br>
+                                <a href="https://github.com/scub-france/smart-order" target="smart-order-sources">Nos sources sur Github</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-5">
+                    <div class="sidebar-wrapper">
+                        <div class="sidebar-box mb-30">
+                            <h4>Suivez nous !</h4>
+                            <div class="footer-social-links">
+                                <br>
+                                <ul class="d-flex justify-content-center">
+                                    <li><a href="https://twitter.com/scub_france" target="twitter"><i
+                                                    class="lni lni-twitter-filled"></i></a></li>
+                                    <li><a href="https://www.linkedin.com/company/scub" target="linkedin"><i
+                                                    class="lni lni-linkedin-original"></i></a></li>
+                                    <li><a href="https://www.facebook.com/scubFrance" target="facebook"><i
+                                                    class="lni lni-facebook-filled"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    {# ============================================================================================================== #}
+{% endblock %}
