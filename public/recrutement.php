@@ -170,43 +170,6 @@
                                     </a>
                                 </div>
                             </div>
-                            <!-- =================================================================================== -->
-							<div class="head">
-								<h3>Directeur technique</h3>
-								<span>Angouleme</span>
-							</div>
-							<div>
-								<p>
-									Rattaché à la direction technique et générale, vous travaillerez avec des technophiles, partisans des méthodes agiles. Homme ou femme de challenge, votre capacité à optimiser des organisations, à fédérer des équipes et votre sens aigu de la satisfaction client seront les enjeux de ce poste.
-									À la fois proche des clients et des équipes de développement, vous piloterez les projets et orienterez les choix technologiques. Vous aurez un rôle de manager technique où vous suivrez individuellement les collaborateurs afin de les faire progresser et de construire leur carrière en donnant la possibilité d’apprendre et de communiquer les savoirs (Projets interne, BBL, formation interne, coding dojo,...).
-								</p>
-								<div class="link">
-									<a class="btn black" href="/pdf/offre-emploi-directeur-technique.pdf" target="_blank">Télécharger l'offre
-										<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 10"><defs><style>.offerArrow{fill:black;}</style></defs><title>link-arrow</title><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><path id="arrow" class="offerArrow" d="M19.87,5.32,15.32,9.87a.45.45,0,0,1-.77-.32.49.49,0,0,1,.13-.33l3.77-3.77H.45a.45.45,0,0,1,0-.9h18L14.68.78a.49.49,0,0,1-.13-.33.45.45,0,0,1,.77-.32l4.55,4.55A.46.46,0,0,1,19.87,5.32Z"></path></g></g></svg>
-									</a>
-									<a class="btn black" href="mailto:recrutement@scub.net" target="_blank">Postuler !
-										<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 10"><defs><style>.offerArrow{fill:black;}</style></defs><title>link-arrow</title><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><path id="arrow" class="offerArrow" d="M19.87,5.32,15.32,9.87a.45.45,0,0,1-.77-.32.49.49,0,0,1,.13-.33l3.77-3.77H.45a.45.45,0,0,1,0-.9h18L14.68.78a.49.49,0,0,1-.13-.33.45.45,0,0,1,.77-.32l4.55,4.55A.46.46,0,0,1,19.87,5.32Z"></path></g></g></svg>
-									</a>
-								</div>
-							</div>
-                            <!-- =================================================================================== -->
-							<div class="head">
-								<h3>Chef de projet</h3>
-								<span>Angouleme / Bordeaux</span>
-							</div>
-							<div>
-								<p>
-									Vous êtes chef de projet mais pas seulement, vous travaillerez avec de fervents partisans des méthodes agiles, vous êtes donc à la fois membre de l’équipe de développement, facilitateur du projet et responsable de la tenue des engagements projet auprès de nos clients et de l’équipe managériale de SCUB. Vous êtes accompagnés dans cette tâche par votre manager qui suit individuellement les collaborateurs, il saura vous aider à progresser et à construire votre carrière en vous donnant la possibilité d’apprendre et de communiquer votre savoir (Projets interne, BBL, formation interne, coding dojo,...).
-								</p>
-								<div class="link">
-									<a class="btn black" href="/pdf/offre-emploi-chef-de-projet.pdf" target="_blank">Télécharger le détail de l'offre
-										<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 10"><defs><style>.offerArrow{fill:black;}</style></defs><title>link-arrow</title><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><path id="arrow" class="offerArrow" d="M19.87,5.32,15.32,9.87a.45.45,0,0,1-.77-.32.49.49,0,0,1,.13-.33l3.77-3.77H.45a.45.45,0,0,1,0-.9h18L14.68.78a.49.49,0,0,1-.13-.33.45.45,0,0,1,.77-.32l4.55,4.55A.46.46,0,0,1,19.87,5.32Z"></path></g></g></svg>
-									</a>
-									<a class="btn black" href="mailto:recrutement@scub.net" target="_blank">Postuler !
-										<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 10"><defs><style>.offerArrow{fill:black;}</style></defs><title>link-arrow</title><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><path id="arrow" class="offerArrow" d="M19.87,5.32,15.32,9.87a.45.45,0,0,1-.77-.32.49.49,0,0,1,.13-.33l3.77-3.77H.45a.45.45,0,0,1,0-.9h18L14.68.78a.49.49,0,0,1-.13-.33.45.45,0,0,1,.77-.32l4.55,4.55A.46.46,0,0,1,19.87,5.32Z"></path></g></g></svg>
-									</a>
-								</div>
-							</div>
 							<div class="head">
 								<h3>Développeur Java / Javascript</h3>
 								<span>Angouleme / Bordeaux</span>
