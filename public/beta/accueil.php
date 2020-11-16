@@ -10,4 +10,4 @@ $twig = new Environment($loader);
 
 // =====================================================================================================================
 // Run Twig.
-echo $twig->render('accueil.html.twig', ['headTitle' => 'Scub', 'headDescription' => 'gardener']);
+echo $twig->render('accueil.html.twig', ['headTitle' => 'Scub', 'headDescription' => 'Scub vous accompagne dans la réalisation de vos projets d\'ingénierie informatique (Java, Javascript, Flutter, Agilité...)']);

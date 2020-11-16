@@ -15,7 +15,7 @@ $twig = new Environment($loader);
 echo $twig->render('recrutement.html.twig',
     [
         'headTitle' => 'Scub',
-        'headDescription' => 'gardener',
+        'headDescription' => 'Scub recrute des ingénieurs Java, Javascript, Flutter sur Angoulême, Bordeaux & Niort',
         'bannerTitle' => 'Nous recrutons',
         'bannerPage' => 'Recrutement',
     ]);

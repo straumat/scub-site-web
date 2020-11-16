@@ -15,7 +15,7 @@ $twig = new Environment($loader);
 echo $twig->render('notre-offre.html.twig',
     [
         'headTitle' => 'Scub',
-        'headDescription' => 'gardener',
+        'headDescription' => 'Scub vous accompagne dans la réalisation de vos projets d\'ingénierie informatique (Java, Javascript, Flutter, Agilité...)',
         'bannerTitle' => 'Notre offre de service',
         'bannerPage' => 'Offre',
     ]);
