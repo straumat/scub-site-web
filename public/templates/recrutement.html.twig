@@ -1,0 +1,172 @@
+{% extends "generic/page.html.twig" %}
+{% block content %}
+    {# ============================================================================================================== #}
+    {# Content #}
+
+    {{ include('generic/page.banner.html.twig') }}
+
+    {# ============================================================================================================== #}
+    {# Introduction #}
+    <section id="about" class="pt-100">
+        <div class="about-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-6 col-lg-6">
+                        <div class="about-img-wrapper">
+                            <div class="about-img position-relative d-inline-block wow fadeInLeft" data-wow-delay=".3s">
+                                <img src="assets/img/about-img.png" alt="">
+                                <div class="about-experience">
+                                    <h3>50 collaborateurs</h3>
+                                    <p>Nos équipes sont réparties entre Angoulême, Bordeaux, Niort & Paris.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-6">
+                        <div class="about-content-wrapper">
+                            <div class="section-title">
+                                <span class="wow fadeInUp"
+                                      data-wow-delay=".2s">Angoulême, Bordeaux, Niort & Paris</span>
+                                <h2 class="mb-40 wow fadeInRight" data-wow-delay=".4s">Scub recrute</h2>
+                            </div>
+                            <div class="about-content">
+                                <p class="mb-45 wow fadeInUp" data-wow-delay=".6s">Travailler chez Scub, c’est être
+                                    accompagné par des dirigeants technophiles et à l’écoute. Vous y trouverez un réel
+                                    suivi vous permettant d’atteindre vos objectifs d’évolutions professionnelles. Vous
+                                    serez notamment associé à des formations annuelles, des brown bag lunch, des projets
+                                    R&D, etc.</p>
+                                <div class="wow fadeInUp" data-wow-delay=".5s">
+                                    <h4>Engagement</h4>
+                                    <p>Nous accompagnons chacun de nos collaborateurs grâce à un suivi régulier, rythmé
+                                        par des objectifs et nous les soutenons dans leur projet professionnel par le
+                                        biais de formations, grâce à l'entraide que nous inculquons lors des montées en
+                                        compétence et la possibilité de faire évoluer son poste</p>
+                                    <br>
+                                    <h4>Ouverture</h4>
+                                    <p>Nous encourageons tous les collaborateurs à se sentir libres d'aborder les sujets
+                                        qui leurs tiennent à coeur et nousnous nous engageons à rester transparents et
+                                        sensibles à l'avis de nos collaborateurs</p>
+                                    <br>
+                                    <h4>Passion</h4>
+                                    <p>Nous sommes des passionnés de technologies avec une forte volonté de partager les
+                                        connaissances et les compétences à l'intérieur comme à l'extérieur de
+                                        l'entreprise</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    {# ============================================================================================================== #}
+
+    {# ============================================================================================================== #}
+    {# Les offres #}
+    <section class="feature-section pt-130">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-6 col-lg-7 col-md-9 mx-auto">
+                    <div class="section-title text-center mb-55">
+                        <span class="wow fadeInDown" data-wow-delay=".2s">Nous rejoindre</span>
+                        <h2 class="wow fadeInUp" data-wow-delay=".4s">Nos offres</h2>
+                        <p class="wow fadeInUp" data-wow-delay=".6s">Que vous souhaitiez devenir développeur,
+                            architecte, consultant, manager, expert, ou commercial, nous vous accompagnons.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="feature-box box-style">
+                        <div class="box-content-style feature-content">
+                            <h4>Ingénieur d’affaires IT</h4>
+                            <p>Votre objectif principal sera le développement commercial. Pour ce faire, vous aurez un
+                                rôle de chasseur dans les différents domaines et secteurs en lien avec notre activité.
+                                Vos interlocuteurs seront essentiellement des directeurs commerciaux, marketing, DSI ou
+                                encore des directeurs généraux.</p>
+                            <br>
+                            <p><a href="pdf/offre-emploi-ingenieur-commercial-it.pdf" target="offre-commercial">Voir
+                                    l'offre</a></p>
+                            <p><a href="mailto:recrutement@scub.net">Postuler</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="feature-box box-style">
+                        <div class="box-content-style feature-content">
+                            <h4>Directeur technique</h4>
+                            <p>Rattaché à la direction technique et générale, vous travaillerez avec des technophiles,
+                                partisans des méthodes agiles. Homme ou femme de challenge, votre capacité à optimiser
+                                des organisations, à fédérer des équipes et votre sens aigu de la satisfaction client
+                                seront les enjeux de ce poste.</p>
+                            <br>
+                            <p><a href="pdf/offre-emploi-directeur-technique.pdf" target="offre-directeur-technique">Voir
+                                    l'offre</a></p>
+                            <p><a href="mailto:recrutement@scub.net">Postuler</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="feature-box box-style">
+                        <div class="box-content-style feature-content">
+                            <h4>Chef de projet</h4>
+                            <p>Vous êtes chef de projet mais pas seulement, vous travaillerez avec de fervents partisans
+                                des méthodes agiles, vous êtes donc à la fois membre de l’équipe de développement,
+                                facilitateur du projet et responsable de la tenue des engagements projet auprès de nos
+                                clients et de l’équipe managériale de Scub.</p>
+                            <br>
+                            <p><a href="pdf/offre-emploi-chef-de-projet.pdf" target="offre-chef-de-projet">Voir
+                                    l'offre</a></p>
+                            <p><a href="mailto:recrutement@scub.net">Postuler</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="feature-box box-style">
+                        <div class="box-content-style feature-content">
+                            <h4>Ingénieur Java / Javascript</h4>
+                            <p>Vous travaillerez avec des technophiles, fervents partisans des méthodes agiles donc, en
+                                plus du développement logiciel, vous travaillerez en collaboration avec nos clients et
+                                les membres de votre équipe.</p>
+                            <br>
+                            <p><a href="pdf/offre-emploi-developpeur.pdf" target="offre-developpeur">Voir l'offre</a>
+                            </p>
+                            <p><a href="mailto:recrutement@scub.net">Postuler</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="feature-box box-style">
+                        <div class="box-content-style feature-content">
+                            <h4>Ingénieur cloud</h4>
+                            <p>Vous travaillerez sur des systèmes d'exploitation Linux avec les plateformes AWS et
+                                Openstack. Vous serez aussi en charge de la sécurité de nos solutions SaaS.</p>
+                            <br>
+                            <p><a href="pdf/offre-emploi-administrateur-reseau.pdf"
+                                  target="administrateur-infrastructure">Voir l'offre</a></p>
+                            <p><a href="mailto:recrutement@scub.net">Postuler</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="feature-box box-style">
+                        <div class="box-content-style feature-content">
+                            <h4>Candidature spontanée</h4>
+                            <p>Si vous pensez que vous pouvez nous apporter des choses, n'hésitez pas à nous contacter à
+                                cette adresse <a href="mailto:recrutement@scub.net">recrutement@scub.net</a>.
+                                <br><br><br><br><br>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    {# ============================================================================================================== #}
+
+    {# ============================================================================================================== #}
+{% endblock %}
