@@ -2,7 +2,7 @@
 
     // Only process POST reqeusts.
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
-        // Get the form fields and remove MORALspace.
+        // Get the form fields and remove space.
         $name = strip_tags(trim($_POST["name"]));
         $name = str_replace(array("\r","\n"),array(" "," "),$name);
         $email = filter_var(trim($_POST["email"]), FILTER_SANITIZE_EMAIL);
